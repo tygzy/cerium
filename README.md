@@ -25,3 +25,5 @@ Example:
   </div>
 
 ```
+
+The class name being `active` isn't required, it just allows stylisation of the current button to indicate which menu you are in easier.
