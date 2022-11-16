@@ -10,9 +10,7 @@ function toggle_navs(active_nav_id, prev_nav_ids) {
     var active_nav = document.getElementById(active_nav_id);
     for(var i=0; i<prev_nav_ids.length; i++) {
         var prev_nav = document.getElementById(prev_nav_ids[i]);
-        if(!prev_nav.style.display == 'none') {
-            prev_nav.style.display = 'none';
-        }
+        prev_nav.style.display = 'none';
     }
 
     active_nav.style.display = 'block';
